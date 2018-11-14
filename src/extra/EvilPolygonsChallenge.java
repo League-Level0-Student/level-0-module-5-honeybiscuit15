@@ -20,7 +20,27 @@ public class EvilPolygonsChallenge {
 		//4. Ask the user how many polygons they want to be drawn.
 		String answer = JOptionPane.showInputDialog("What shape would you like");
 		//5. Use the robot to draw the number of polygons the user requested.
+		static void drawSquare() {
+			
+			for (int j = 0; j < 5.; j++) {
+				
+				max.move(200);
+				max.turn(90);
+			}
 		
+		}
+		static void drawTriangle() {
+			for(int i = 0; i<4.; i++) {
+				
+				max.move(200);
+				max.turn(120);
+
+			
+			}
+		}
+		static void drawCircle() {
+			max.turn(1);
+	} 
 		//6. Make it so your shapes do not overlap
 
 		//7. Challenge: add more colors to the Option Dialog.
