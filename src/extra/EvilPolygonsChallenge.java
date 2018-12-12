@@ -20,10 +20,28 @@ public class EvilPolygonsChallenge {
 		//4. Ask the user how many polygons they want to be drawn.
 		String answer = JOptionPane.showInputDialog("how many polygons you want to be drawn");
 		//5. Use the robot to draw the number of polygons the user requested.
+		if (answer == "square") {
+for (int j = 0 ; j < 5.; j++){
+				
+				max.move(200);
+				max.turn(90);
+		}
+		else if(answer=="triangle") {
+			
+		}else if(answer== "circle"){
+			
+		}else{
+			
+		}
+		
+		
+		
+		
+		
 		
 		static void drawSquare() {
 			
-			for (int j = 0; j < 5.; j++){
+			for (int j = ; j < 5.; j++){
 				
 				max.move(200);
 				max.turn(90);
